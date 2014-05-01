@@ -1,0 +1,18 @@
+{
+  "name": "fCSS",
+  "version": "0.0.1",
+  "description": "preprocess css with js, functional-like style",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "yourmom",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "css": "~1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
