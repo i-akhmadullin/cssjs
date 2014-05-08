@@ -1,0 +1,30 @@
+.welcome-footer {
+  display: inline-block;
+  margin-top: 46px;
+  color: #999999;
+  font-size: 14px;
+  line-height: 25px
+}
+.welcome-footer a:first-child {
+  margin-left: 0
+}
+.welcome-footer a {
+  margin-left: 26px
+}
+.welcome-footer a,
+.welcome-footer a:link,
+.welcome-footer a:visited,
+.welcome-footer a:active,
+.welcome-footer a:hover {
+  text-decoration: none;
+  color: #666666;
+  border-bottom: 1px solid
+}
+.welcome-footer strong {
+  font-weight: normal
+}
+.welcome-footer .b-link {
+  display: inline;
+  zoom: 1
+}
+

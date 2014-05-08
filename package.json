@@ -1,18 +1,28 @@
 {
-  "name": "fCSS",
+  "name": "css.js",
   "version": "0.0.1",
-  "description": "preprocess css with js, functional-like style",
+  "description": "preprocess css with js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "watchify cssjs.js -s cssjs -o ./build/cssjs.js"
   },
   "author": "yourmom",
   "license": "MIT",
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browserify-shim": {
+    "GLOBAL": "window"
+  },
   "dependencies": {
     "lodash": "~2.4.1",
-    "css": "~1.6.0"
+    "color": "~0.6.0"
   },
   "devDependencies": {
-    "mocha": "~1.18.2"
+    "mocha": "~1.18.2",
+    "watchify": "^0.8.3",
+    "browserify": "~3.46.0",
+    "browserify-shim": "^3.4.1"
   }
 }
